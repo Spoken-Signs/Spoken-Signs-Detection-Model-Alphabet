@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+
+# Local datasets
+Kaggle (just alphabet) Dataset/
+Kaggle Dataset/
+Microsoft Dataset/
+
+# Generated training data and model artifacts
+model/camera_data/
+model/motion_data/
+model/*.pt
+model/*.json
+model/*.task
+
+# Local command-line artifact
+--epochs
